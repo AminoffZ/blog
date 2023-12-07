@@ -5,6 +5,10 @@ pubDate: 'Dec 07 2023'
 heroImage: '/blog/blog-placeholder-2.jpg'
 ---
 
+<p style="font-size: 1rem; padding: 1rem; color: maroon">
+    This page contains 👌 javascript. No artificial intelligence was consulted for this piece. 
+</p>
+
 # The Format
 
 The main benefit of SVGs (Scalable Vector Graphics) is in the name. Unlike shitty raster formats like PNG and JPEG, vector graphics don't care where they are or how big they need to be, they just work (at scale btw).
@@ -23,7 +27,7 @@ Which represents this:
 
 ![](/blog/tiff.png)
 
-Pretty terrible isn't it? Not just reading bytecode; they trademarked this? Anyway, its so terrible in fact, that they themselves used another format to create it. Can you guess which one? You guessed it. Here it is in all its glory:
+Pretty terrible isn't it? Not just reading bytecode; they trademarked this? Anyway, its so terrible in fact, that they themselves used another format to create it. Can you guess which one? You guessed it. Read it in all its glory:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -52,7 +56,7 @@ One of the greatest things about SVGs is the ability to directly change the grap
 
 ## 1. Finding the I 📑
 
-Looking at the markdown we can assume the second path is the second letter. 
+Looking at the markup we can assume the second path is the second letter. 
 
 ```diff
 <?xml version="1.0" encoding="UTF-8"?>

@@ -2,7 +2,7 @@
 title: 'Animated SVGs'
 description: 'The wonderful world of readable vector graphics.'
 pubDate: 'Dec 07 2023'
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/blog/blog-placeholder-2.jpg'
 ---
 
 # The Format
@@ -17,7 +17,11 @@ There is nothing SVGs can't do that rasters think they excel at. And they have t
 
 Which represents this:
 
-![](./assets/tiff.tiff)
+![](/blog/tiff.tiff)
+
+⬆ Oh what's that, you can't see anything here? Well then I guess you must be on literally any other browser than Safari (on day of posting). Here is a PNG for you poor people.
+
+![](/blog/tiff.png)
 
 Pretty terrible isn't it? Not just reading bytecode; they trademarked this? Anyway, its so terrible in fact, that they themselves used another format to create it. Can you guess which one? You guessed it. Here it is in all its glory:
 
@@ -299,7 +303,7 @@ Well actually 🤓, that makes sense. Because the I itself is not a character, i
 
 Now before we get to the really juicy part of this article, we have to take a quick look at how to webify the SVG workflow.
 
-Using the `<style>` tag we can use scoped styles like in your favourite ![](./assets/frameworks.svg) UI frlibrarwork ™ (thanks React). And yes that is an SVG.
+Using the `<style>` tag we can use scoped styles like in your favourite ![](/blog/frameworks.svg) UI frlibrarwork™ (thanks React). And yes that is an SVG.
 
 Here's an example of what I'm talking about:
 
@@ -505,6 +509,7 @@ V
     - Bilbo Baggins
         - J.R.R Tolkien
             - Me
+              - You
 </pre>
 </div>
 
@@ -549,7 +554,7 @@ Next... The juice 🍌
 
 Meanwhile over at GIF headquarters:
 
-![](./assets/spongebob.gif)
+![](/blog/spongebob.gif)
 
 Now that we have mastered reading and directly manipulating the SVG markup, we can graduate to what __some__ would call the best feature of SVGs, the intuitive animation syntax.
 
